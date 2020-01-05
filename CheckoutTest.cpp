@@ -54,9 +54,7 @@ TEST_F(CheckoutTests, itemWithNoPriceThrowException){
 	ASSERT_THROW(checkOut.addItem("a"), std::invalid_argument);
 }
 
-char *option[] = { "/Users/magnus/eclipse-workspace/Program/Debug/Program", //it doesn't have meaning, just dummy
-                   "--gtest_output=xml:filename.xml" };
-int argc = 2;
+
 
 int main(int argc, char **option) {
 	::testing::InitGoogleTest(&argc, option);
