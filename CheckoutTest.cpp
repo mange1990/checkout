@@ -55,12 +55,12 @@ TEST_F(CheckoutTests, itemWithNoPriceThrowException){
 }
 
 
-
+/*
 int main(int argc, char **option) {
 	::testing::InitGoogleTest(&argc, option);
   return RUN_ALL_TESTS();
 }
-
+*/
 /*
 TEST_F(CheckoutTests, CanAddItemPrice){
 	checkOut.addItemPrice("a", 1);
